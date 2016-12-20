@@ -34,22 +34,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BOJ1929.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BOJ1929.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BOJ1764.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ1764.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
               <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +51,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +83,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
               <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="e#109#110#0" expanded="false" />
+                <element signature="e#174#175#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,10 +94,11 @@
       <file leaf-file-name="BOJ7287.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ7287.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
+            <state relative-caret-position="1102">
               <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1432#1433#0" expanded="false" />
+                <element signature="e#1475#1476#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -109,8 +107,18 @@
       <file leaf-file-name="BOJ10998.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BOJ10998.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="285">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BOJ10869.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BOJ10869.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BOJ10869.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BOJ10869.java">
+      <file leaf-file-name="BOJ1234.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BOJ1234.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="494">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,6 +146,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>+</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,12 +192,14 @@
         <option value="$PROJECT_DIR$/src/BOJ7287.java" />
         <option value="$PROJECT_DIR$/src/BOJ10998.java" />
         <option value="$PROJECT_DIR$/src/BOJ10869.java" />
+        <option value="$PROJECT_DIR$/src/BOJ1234.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1041" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -202,8 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,7 +245,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,23 +255,9 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.BOJ10869">
-    <configuration default="false" name="BOJ10172" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="BOJ10172" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="sddsaddsada" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="AlgoStudy" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BOJ1234">
     <configuration default="false" name="BOJ10943" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BOJ10943" />
@@ -305,6 +306,21 @@
     <configuration default="false" name="BOJ10869" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BOJ10869" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="sddsaddsada" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AlgoStudy" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BOJ1234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="BOJ1234" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="sddsaddsada" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -522,19 +538,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.BOJ10172" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BOJ10943" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BOJ7287" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BOJ10998" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BOJ10869" />
+      <item index="0" class="java.lang.String" itemvalue="Application.BOJ10943" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BOJ7287" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BOJ10998" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BOJ10869" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BOJ1234" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BOJ10869" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BOJ10998" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BOJ7287" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BOJ10943" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BOJ10172" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BOJ1234" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BOJ10869" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BOJ10998" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BOJ7287" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BOJ10943" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -579,7 +595,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1041" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -589,15 +605,15 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33439153" sideWeight="0.17170732" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33439153" sideWeight="0.175" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33439153" sideWeight="0.82829267" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33439153" sideWeight="0.825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2107317" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -635,13 +651,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BOJ10828.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ11721.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -914,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +930,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -930,7 +940,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -946,7 +958,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -970,34 +984,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#109#110#0" expanded="false" />
+            <element signature="e#174#175#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ7287.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
+        <state relative-caret-position="1102">
           <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="false" />
+            <element signature="e#1475#1476#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ10998.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="285">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BOJ10869.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BOJ1234.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
