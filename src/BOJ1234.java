@@ -6,6 +6,11 @@ import java.io.InputStreamReader;
  * Created by USER on 2016-12-21.
  */
 public class BOJ1234 {
+    public static int factorial(int n) {
+        if (n <= 1)
+            return 1;
+        return n * factorial(n - 1);
+    }
     public static long christmasTree(int n, int r, int g, int b) {
         if ((n * n + n) / 2 > r + g + b)
             return 0;
@@ -13,13 +18,17 @@ public class BOJ1234 {
             return 0;
         else {
             if (n % 3 == 0) {   // 1가지 색으로 채울 경우 + 3가지 색으로 채울 경우
-                return n * (n - 1) * (n - 2) * (christmasTree(n - 1, r - n, g, b) + christmasTree(n - 1, r, g - n, b) + christmasTree(n - 1, r, g, b - n)
+                return factorial(n) / factorial(n / 3) / factorial(n / 3) / factorial(n / 3) * (christmasTree(n - 1, r - n, g, b) + christmasTree(n - 1, r, g - n, b) + christmasTree(n - 1, r, g, b - n)
                         + christmasTree(n - 1, r - (n / 3), g - (n / 3), b - (n / 3)));
             }else if (n % 2 == 0) {     // 1가지 색으로 채울 경우 + 2가지 색으로 채울 경우
-                return n * (n - 1) * (christmasTree(n - 1, r - n, g, b) + christmasTree(n - 1, r, g - n, b) + christmasTree(n - 1, r, g, b - n)
+                return factorial(n) / factorial(n / 2) / factorial(n / 2) * (christmasTree(n - 1, r - n, g, b) + christmasTree(n - 1, r, g - n, b) + christmasTree(n - 1, r, g, b - n)
                         + christmasTree(n - 1, r - (n / 2), g - (n / 2), b) + christmasTree(n - 1, r - (n / 2), g, b - (n / 2)) + christmasTree(n - 1, r, g - (n / 2), b - (n / 2)));
             }else {     // 1가지 색으로 채울 경우
-                return 1 + (christmasTree(n - 1, r - n, g, b) + christmasTree(n - 1, r, g - n, b)
+                if (n == 1) {
+                    return 1 + (christmasTree(n - 1, r - n, g, b) + christmasTree(n - 1, r, g - n, b)
+                            + christmasTree(n - 1, r, g, b - n));
+                }
+                return  (christmasTree(n - 1, r - n, g, b) + christmasTree(n - 1, r, g - n, b)
                         + christmasTree(n - 1, r, g, b - n));
             }
         }
