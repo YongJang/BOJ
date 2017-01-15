@@ -1,13 +1,121 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
+
+
+public class BOJ14216 {
+    public static void main(String args[]) throws IOException {
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(in.readLine());
+        int dArray[][] = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            String str = in.readLine();
+            String strs[] = str.split("\\s+");
+            for (int j = 0; j < n; j++) {
+                dArray[i][j] = Integer.parseInt(strs[j]);
+            }
+        }
+
+        int rowSum[] = new int[n];
+        int colSum[] = new int[n];
+        int rowDone[] = new int[n];
+        int colDone[] = new int[n];
+        int cArray[][] = new int[n][n];
+        int count = 0;
+        int totalCost = 0;
+
+        for (int i = 0; i < n; i++) {
+            rowSum[i] = 0;
+            colSum[i] = 0;
+            rowDone[i] = 0;
+            colDone[i] = 0;
+        }
+
+        for (count = 0; count < n; count++) {
+
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    rowSum[i] += dArray[i][j];
+                    colSum[i] += dArray[j][i];
+                }
+            }
+
+            for (int i = 0; i < n; i++) {
+                if (rowDone[i] != 0) {
+                    continue;
+                }
+                for (int j = 0; j < n; j++) {
+                    if (colDone[j] != 0) {
+                        continue;
+                    }
+                    cArray[i][j] = rowSum[i] + colSum[j] - (3 * dArray[i][j]);
+                }
+            }
+
+            int max;
+            int tmpCol = -1;
+            int tmpRow = -1;
+            for (int i = 0; i < n; i++) {
+                if (colDone[i] == 0) {
+                    tmpCol = i;
+                    break;
+                }
+            }
+            for (int i = 0; i < n; i++) {
+                if (rowDone[i] == 0) {
+                    tmpRow = i;
+                    break;
+                }
+            }
+            max = cArray[tmpRow][tmpCol];
+
+            int rowIndex = tmpRow;
+            int colIndex = tmpCol;
+
+            for (int i = 0; i < n; i++) {
+                if (rowDone[i] != 0) {
+                    continue;
+                }
+                for (int j = 0; j < n; j++) {
+                    if (colDone[j] != 0) {
+                        continue;
+                    }
+                    if (max < cArray[i][j]) {
+                        max = cArray[i][j];
+                        rowIndex = i;
+                        colIndex = j;
+                    }
+                }
+            }
+
+            totalCost += dArray[rowIndex][colIndex];
+            for (int i = 0; i < n; i++) {
+                dArray[rowIndex][i] = 0;
+                dArray[i][colIndex] = 0;
+                rowSum[i] = 0;
+                colSum[i] = 0;
+            }
+            rowDone[rowIndex] = 1;
+            colDone[colIndex] = 1;
+        }
+        System.out.println(totalCost);
+    }
+}
+
+/*
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+*/
 /**
  * Created by USER on 2017-01-15.
- */
+ *//*
+
 public class BOJ14216 {
     public static void main(String args[]) throws IOException{
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -199,3 +307,4 @@ public class BOJ14216 {
         System.out.println(totalCost);
     }
 }
+*/
